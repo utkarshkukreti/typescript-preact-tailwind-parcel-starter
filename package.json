@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "parcel -d .cache/dev src/index.html",
+    "build": "parcel build -d dist --no-source-maps --no-cache src/index.html"
+  },
+  "dependencies": {
+    "preact": "^10.0.0-rc.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.10",
+    "tailwindcss": "^1.1.2",
+    "typescript": "^3.5.3"
+  }
+}
