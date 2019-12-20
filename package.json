@@ -4,13 +4,13 @@
     "build": "parcel build -d dist --no-source-maps --no-cache src/index.html"
   },
   "dependencies": {
-    "preact": "^10.0.5"
+    "preact": "^10.1.1"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.1",
+    "autoprefixer": "^9.7.3",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.23.3",
-    "tailwindcss": "^1.1.3",
-    "typescript": "^3.7.2"
+    "sass": "^1.23.7",
+    "tailwindcss": "^1.1.4",
+    "typescript": "^3.7.3"
   }
 }
