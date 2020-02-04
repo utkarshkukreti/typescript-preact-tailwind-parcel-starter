@@ -4,11 +4,11 @@
     "build": "parcel build --no-source-maps --no-cache src/index.html"
   },
   "dependencies": {
-    "parcel": "^2.0.0-nightly.70",
-    "preact": "^10.2.1"
+    "preact": "^10.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
+    "parcel": "^2.0.0-nightly.77",
     "tailwindcss": "^1.1.4",
     "typescript": "^3.7.5"
   }
