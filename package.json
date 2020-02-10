@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build --no-source-maps --no-cache src/index.html"
+    "start": "parcel src/index.html src/index.tsx src/index.css",
+    "build": "rm -rf .parcel-cache dist && parcel build --no-source-maps --no-cache src/index.html src/index.tsx src/index.css"
   },
   "dependencies": {
     "preact": "^10.3.1"
