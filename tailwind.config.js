@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: '"Trebuchet MS", sans-serif',
+      },
+    },
   },
   variants: {},
   plugins: [],
