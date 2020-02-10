@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "parcel src/index.html src/index.tsx src/index.css",
+    "start": "parcel --no-cache src/index.html src/index.tsx src/index.css",
     "build": "rm -rf .parcel-cache dist && parcel build --no-source-maps --no-cache src/index.html src/index.tsx src/index.css"
   },
   "dependencies": {
