@@ -4,15 +4,15 @@
     "build": "rm -rf .parcel-cache dist && parcel build --no-source-maps --no-cache src/index.html src/index.tsx src/index.css"
   },
   "dependencies": {
-    "preact": "^10.3.2"
+    "preact": "^10.3.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
+    "@babel/core": "^7.8.7",
     "@babel/plugin-transform-react-jsx": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
     "autoprefixer": "^9.7.4",
-    "parcel": "^2.0.0-nightly.115",
+    "parcel": "^2.0.0-nightly.135",
     "tailwindcss": "^1.2.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.8.3"
   }
 }
