@@ -2,7 +2,7 @@
   "scripts": {
     "start": "parcel --no-cache src/index.html src/index.tsx src/index.css",
     "build": "run-s clean build:parcel",
-    "build:parcel": "PURGE=true parcel build --no-source-maps --no-cache src/index.html src/index.tsx src/index.css",
+    "build:parcel": "cross-env PURGE=true parcel build --no-source-maps --no-cache src/index.html src/index.tsx src/index.css",
     "clean": "rm -rf .parcel-cache dist"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@tailwindcss/custom-forms": "^0.2.1",
     "autoprefixer": "^9.7.4",
+    "cross-env": "^7.0.2",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.0.0-nightly.135",
     "tailwindcss": "^1.2.0",
