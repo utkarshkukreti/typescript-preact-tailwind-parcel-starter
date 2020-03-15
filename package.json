@@ -6,7 +6,7 @@
     "clean": "rm -rf .parcel-cache dist"
   },
   "dependencies": {
-    "preact": "^10.3.3"
+    "preact": "^10.3.4"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
@@ -17,7 +17,7 @@
     "autoprefixer": "^9.7.4",
     "cross-env": "^7.0.2",
     "npm-run-all": "^4.1.5",
-    "parcel": "^2.0.0-nightly.135",
+    "parcel": "^2.0.0-nightly.148",
     "tailwindcss": "^1.2.0",
     "typescript": "^3.8.3"
   }
