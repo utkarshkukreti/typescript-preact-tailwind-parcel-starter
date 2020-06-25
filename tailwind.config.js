@@ -1,4 +1,5 @@
 module.exports = {
+  purge: process.env.PURGE === 'true' ? ['src/**/*'] : false,
   theme: {
     extend: {
       fontFamily: {
